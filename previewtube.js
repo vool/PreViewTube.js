@@ -49,7 +49,7 @@
 				loop = setInterval(function() {
 					// loop - one, two, trí
 					if(num == 3) {
-						num = 1;
+						num = 0;
 					} else {
 						num++;
 					}
