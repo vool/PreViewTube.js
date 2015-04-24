@@ -38,7 +38,7 @@ A small jQuery plugin for animating YouTube thumbnails.
 3. Add some YouTube thumbnails:
 
 	```html
-		<img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/2.jpg" alt="" title="" width="150px" class="preViewTube"/>'
+	<img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/2.jpg" alt="" title="" width="150px" class="preViewTube"/>'
 	```
 
 ## Options
@@ -53,6 +53,11 @@ Default: `500`ms
 How the animation should run 
 `constant` or `hover`  
 Default : `hover`
+
+##A note on thumbnail size
+YouTube creates 4 thumbnails, 3 of these are sized **120px x 90px** (1.jpg, 2.jpg & 3.jpg) and 1 sized **480px × 360px** (0.jpg), because of this size difference it is important that the size is set on the `img` tag.
+
+Although it may be best to make this `width="120px"` you can get away with make this a bit bigger, I found `width="150px"` look ok.
 
 ## ToDo
 
