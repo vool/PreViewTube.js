@@ -35,6 +35,12 @@ A small jQuery plugin for animating YouTube thumbnails.
 	</script>
 	```
 
+3. Add some YouTube thumbnails:
+
+	```html
+		<img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/2.jpg" alt="" title="" width="150px" class="preViewTube"/>'
+	```
+
 ## Options
 
 The plugin has two options `mode` and `interval` both are optional.
