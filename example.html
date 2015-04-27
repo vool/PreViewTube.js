@@ -7,10 +7,6 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/default.min.css">-->
-
-		<!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/railscasts.min.css">-->
-
 		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/tomorrow.min.css">
 
 		<style>
@@ -19,9 +15,9 @@
 				font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 				margin: 0;
 			}
+			
 			body > #wrap {
 				margin: 0 auto;
-				/*opacity: 0;*/
 				padding-left: 20px;
 				transition: opacity 0.3s ease-in-out 0s;
 				width: 700px;
@@ -29,7 +25,6 @@
 			}
 
 			footer {
-
 				background: #ec756e;
 				padding: 2em;
 				font-size: 1.1em;
@@ -51,6 +46,7 @@
 				text-align: center;
 				font-size: 2em;
 			}
+			
 			small {
 				font-size: .5em;
 				background: #EC756E;
@@ -64,12 +60,10 @@
 			}
 
 			h3 {
-				text-align: center;
 				font-size: 1.5em;
 			}
 
 			img {
-				margin-top: 15px;
 				border: .5em solid #fff;
 				border-radius: .5em;
 			}
@@ -84,7 +78,6 @@
 			}
 
 			code {
-
 				border: .5em solid #ec756e;
 			}
 
@@ -98,11 +91,22 @@
 				padding-top: 0;
 				width: 30%;
 				float: left;
+				text-align: right;
 			}
 			.examples .code {
 
 				width: 70%;
 				float: left;
+			}
+
+			.examples .code pre {
+				padding: 0;
+				margin: 0;
+			}
+			
+			.row {
+				display: block;
+				overflow: auto;
 			}
 
 		</style>
@@ -123,55 +127,55 @@
 			<h2>Example Usage</h2>
 
 			<div class="examples">
-
 				<h3>Default</h3>
-
-				<div class="tmbnl">
-					<img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/2.jpg" alt="" title="" width="150" class="preViewTube"/>
-				</div>
-
-				<div class="code">
-					<pre>
-						<code>
+				<div class="row">
+					<div class="code">
+						<pre><code>
 	// Hover over the image to see this in action.
 	$('.someSelector').PreViewTube();
 						</code>
 					</pre>
+					</div>
+
+					<div class="tmbnl">
+						<img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/2.jpg" alt="" title="" width="150" class="preViewTube"/>
+					</div>
 				</div>
 
 				<h3>Constant Mode</h3>
-
-				<div class="tmbnl">
-					<img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/2.jpg" alt="" title="" width="150" class="preViewTube-constant"/>
-				</div>
-
-				<div class="code">
-					<pre><code>
+				<div class="row">
+					<div class="code">
+						<pre><code>
 	$('.someSelector').PreViewTube({
 		'interval' : 500,
 		'mode' : 'constant'
 	});
 		</code>
-		</pre>																																																																	
+		</pre>	
 
+					</div>
 
-
+					<div class="tmbnl">
+						<img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/2.jpg" alt="" title="" width="150" class="preViewTube-constant"/>
+					</div>
 				</div>
-
 				<h3>Aninmation Speed</h3>
 
-				<div class="tmbnl">
-					<img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/2.jpg" alt="" title="" width="150" class="preViewTube-speed"/>
-				</div>
-
-				<div class="code">
-					<pre><code>
+				<div class="row">
+					<div class="code">
+						<pre><code>
 	// Hover over the image to see this in action.
 	$('.someSelector').PreViewTube({
 		'interval' : 100,
 	});
 		</code>
 		</pre>
+					</div>
+
+					<div class="tmbnl">
+						<img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/2.jpg" alt="" title="" width="150" class="preViewTube-speed"/>
+					</div>
+
 				</div>
 
 			</div>
@@ -184,17 +188,7 @@
 				<pre><code>
 &lt;script src="path/to/jquery.min.js"&gt;&lt;/script&gt;
 		</code>
-		</pre>																																							
-		
-
-
-
-
-
-
-
-
-
+		</pre>	
 			</div>
 
 			<h3>2. Include plugin's code</h3>
@@ -203,17 +197,7 @@
 				<pre><code>
 &lt;script src="path/to/previewtube.js"&gt;&lt;/script&gt;
 		</code>
-		</pre>																																							
-		
-
-
-
-
-
-
-
-
-
+		</pre>	
 			</div>
 
 			<h3>3. Call the PreViewTube plugin</h3>
@@ -242,20 +226,15 @@
 				<pre><code>
 &lt;img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/2.jpg" alt="" width="150" class="preViewTube"/&gt;
 		</code>
-		</pre>																																							
-		
-
-
-
-
-
-
-
+		</pre>
 			</div>
+
+			<h3>4. ??????</h3>
+
 			<h3>5. Profit</h3>
 
 			<footer>
-				Created by <a href="http://twitter.com/voolist">Keith</a> | Code on <a href="https://github.com/vool/PreViewTube.js">Github</a>
+				Created by <a href="http://vool.ie" target="blank">Keith</a> | Code on <a href="https://github.com/vool/PreViewTube.js" target="blank">Github</a>
 			</footer>
 
 		</div>
