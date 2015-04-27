@@ -1,0 +1,30 @@
+{
+  "name": "previewtube",
+  "version": "1.0",
+  "homepage": "http://previewtube.vool.ie/",
+  "authors": [
+    "Keith O'Faolain <keith@vool.ie>"
+  ],
+  "repository": {
+  "type": "git",
+  "url": "git@github.com:vool/PreViewTube.js.git"
+},
+  "description": "A small jQuery plugin for animating YouTube thumbnail images.",
+  "dependencies": {
+    "jquery": "*"
+    },
+  "main": "previewtube.js",
+  "keywords": [
+    "jQuery",
+    "youtube",
+    "preview",
+    "thumbnail",
+    "animation",
+    "video"	
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ]
+}

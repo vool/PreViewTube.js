@@ -1,6 +1,15 @@
 # PreViewTube.js
 A small jQuery plugin for animating YouTube thumbnails.
 
+
+##Download
+
+You can install PreViewTube using Bower:
+
+``$ bower install previewtube``
+
+Or if you prefer just grab a copy of [the script](https://raw.githubusercontent.com/vool/PreViewTube.js/master/previewtube.js)
+
 ## Usage
 
 1. Include jQuery:
