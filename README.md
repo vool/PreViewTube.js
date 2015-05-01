@@ -1,6 +1,8 @@
 # PreViewTube.js
 A small jQuery plugin for animating YouTube thumbnails.
 
+##Demo
+[previewtube.vool.ie](http://previewtube.vool.ie)
 
 ##Download
 
