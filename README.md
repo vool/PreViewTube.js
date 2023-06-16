@@ -1,10 +1,10 @@
 # PreViewTube.js
 A small jQuery plugin for animating YouTube thumbnails.
 
-##Demo
+## Demo
 [previewtube.vool.ie](http://previewtube.vool.ie)
 
-##Download
+## Download
 
 You can install PreViewTube using Bower:
 
@@ -56,11 +56,11 @@ Or if you prefer just grab a copy of [the script](https://raw.githubusercontent.
 
 The plugin has two options `mode` and `interval` both are optional.
 
-####Interval 
+#### Interval 
 The animation rate in `ms`  
 Default: `500`ms
 
-####Mode 
+#### Mode 
 How the animation should run 
 `constant` or `hover`  
 Default : `hover`
